@@ -45,7 +45,6 @@ int main(void) {
                 numbers[k] = temp;
             }
 
-            // 前六個號碼由小到大排序
             for (j = 0; j < 5; j++) {
                 for (k = j + 1; k < 6; k++) {
                     if (numbers[j] > numbers[k]) {
